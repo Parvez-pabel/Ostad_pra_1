@@ -1,0 +1,269 @@
+@import url(./utilities.css);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smotthing:antialised;
+  color: var(--primary);
+}
+:root{
+  --primary:#331B3B;
+  --secondary:#fff;
+  --dark:#000000;
+  --light:#ECF7FF;
+  --pinkiesh:#FFDED4;
+  --yellow:#fdc221;
+}
+
+
+/* heading section */
+header{
+  background-image: url(../img/hero.png);
+  
+}
+
+header .left{
+  
+}
+header .left a{
+  text-decoration: none;
+  margin-right:2rem ;
+  color: var(--primary);
+  font-size: 15px;
+
+}
+header .left a:hover{
+  color: #000000;
+}
+
+header .left .logo{
+  margin-left: 75px;
+
+}
+header .left .logo h1{
+  color: var(--primary);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header .right{
+  margin-top: 10px;
+  gap: 15px;
+  
+}
+header .right i{
+  padding: 10px;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 50%;
+
+
+}
+ header .container .box-left{
+  width: 600px;
+  padding-top: 50px;
+  color: var(--primary);
+}
+header .container .box-left h1{
+  font-weight: 900;
+  font-size: 3rem;
+}
+header .container .box-left h1 span{
+  font-weight: 300;
+}
+
+header .container .box-left p{
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 25px;
+  color: #8d8d8d;
+}
+/* <!-- service section --> */
+
+.service{
+  background-image: url(../img/Bg2.png);
+  display: flex;
+  color: var(--primary);
+  
+  
+  
+}
+.section-heading{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+
+}
+.section-heading h4{
+  font-weight: 300;
+  font-size: 40px;
+}
+.box{
+  margin: -26px 0 32px 71px;
+}
+.box1{
+  margin: -26px 0 0 543px;
+
+}
+.box2{
+  margin: -21px 0px 29px 57px;
+
+}
+.box3{
+  margin: -25px 0px 29px 649px;
+
+}
+.card{
+  /* width: 300px; */
+  background-color: var(--secondary);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgb(218, 218, 218);
+}
+.card-wrapper{
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+.card-wrapper .card p{
+  font-weight: 200;
+  font-size: 10px;
+}
+.navi-icon{
+  font-size: 35px;
+  
+}
+/*       <!-- about section --> */
+
+.about{
+  background-image: url(../img/bg3.png);
+  display: flex;
+  color: var(--primary);
+}
+
+.about .box-left{
+  width: 50%;
+  
+}
+.about .box-right{
+  width: 50%;
+  margin-top: 30px;
+  
+}
+.about .box-right h1{
+  font-size: 45px;
+}
+.about .box-right h2{
+  font-size: 40px;
+  font-weight: 200;
+}
+.about .box-right p{
+  font-size: 12px;
+  margin-top: 10px;
+  padding-right: 25px;
+  letter-spacing: .5px;
+  color: #8d8d8d;
+  margin-bottom: 15px;
+}
+/*       <!-- recent work --> */
+
+.recent{
+  background-image: url(../img/bg4.png);
+  color: var(--primary);
+}
+.recent .sec-head{
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.recent .sec-head h1{
+  font-size: 40px;
+  
+
+}
+.recent .sec-head h4{
+  font-size: 30px;
+  font-weight: 300;
+}
+.recent .sec-head p{
+  margin-left: 40px;
+  font-size: 15px;
+  color: #8d8d8d;
+}
+section .recent-work{
+  margin-right: 10px;
+  /* width: 400px; */
+  background-color: var(--secondary);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgb(218, 218, 218);
+  
+}
+section .recent-work .work-heading{
+padding: 0 14px 0 14px;
+color: var(--primary);
+  
+}
+.recent-work-wrapper{
+  margin-top: 20px;
+
+}
+
+/* <!-- testimonial_section --> */
+.testimonial{
+  margin-bottom: 20px ;
+}
+.testimonial .card-wrapper .card p{
+  color: #8d8d8d;
+  font-size: 15px;
+}
+.testimonial .card-wrapper .card h4 span{
+  color: var(--yellow);
+}
+/* contact section */
+.contact{
+  margin: 40px 0 20px 0;
+  background-color: #000000;
+  border-radius: 0px 136px 0px 0px;
+  
+}
+.contact .container .left h1 {
+  color: var(--secondary);
+  font-size: 30px;
+  margin: 20px 0px;
+
+}
+.contact .container .left h4 {
+  color: var(--secondary);
+  font-size: 20px;
+}
+.contact .container .left p{
+  font-size: 15px;
+  color: var(--secondary);
+  margin-bottom: 20px;
+}
+.contact .container .left input{
+  border: 2px solid #fff;
+  background-color: var(--dark);
+  color: var(--secondary);
+  padding: 10px 90px;
+  margin: 10px 0px 40px -12px;
+  border-radius: 10px;
+  
+}
+.contact .container .left button{
+  background-color: #fff;
+  color: var(--dark);
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 0px 10px 10px 0px;
+  padding: 11px 35px;
+  font-size: 13px;
+  margin: 10px 0px 40px -15px;
+  font-weight: 600;
+  
+}
+.contact .container .right iframe{
+  width: 500px;
+  height: 300px;
+  margin:  20px 0 0 75px;
+}
