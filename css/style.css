@@ -191,7 +191,6 @@ header .container .box-left p{
 }
 section .recent-work{
   margin-right: 10px;
-  /* width: 400px; */
   background-color: var(--secondary);
   padding: 20px;
   border-radius: 10px;
