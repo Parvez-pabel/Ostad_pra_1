@@ -20,19 +20,15 @@
 /* heading section */
 header{
   background-image: url(../img/hero.png);
-  
 }
 
-header .left{
-  
-}
 header .left a{
   text-decoration: none;
   margin-right:2rem ;
   color: var(--primary);
   font-size: 15px;
-
 }
+
 header .left a:hover{
   color: #000000;
 }
