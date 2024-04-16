@@ -4,8 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  -webkit-font-smotthing:antialised;
-  color: var(--primary);
+ 
+  
 }
 :root{
   --primary:#331B3B;
